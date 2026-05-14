@@ -36,8 +36,6 @@ pools the resulting node embeddings, and predicts a single scalar ΔG.
 
 ## Installation
 
-### Option A — conda (recommended)
-
 ```bash
 conda env create -f environment.yml
 conda activate idp-gnn
