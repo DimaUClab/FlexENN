@@ -19,7 +19,7 @@ pools the resulting node embeddings, and predicts a single scalar ΔG.
 
 ```
 .
-├── src/                      
+├── src/                        
 │   └── gnn_pyg.ipynb
 ├── data/                      
 │   └── IDP_complexes.csv
@@ -107,6 +107,4 @@ If you use this code in academic work, please cite the original publication
 (...).
 
 ---
-
-## License
 
