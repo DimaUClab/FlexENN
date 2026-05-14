@@ -13,6 +13,8 @@ pools the resulting node embeddings, and predicts a single scalar ΔG.
 
 ---
 
+[![Workflow](assets/FlexENN_architecture.png)](assets/FlexENN_architecture.png)
+
 ## Project structure
 
 ```
