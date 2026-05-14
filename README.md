@@ -67,7 +67,7 @@ the notebook. Update both paths near the top of the notebook:
 
 ```python
 csv_path = "../data/IDP_complexes.csv"
-pdb_folder = "../data/IDP-dataset/"
+pdb_folder = "../data/IDP-dataset-example/"
 ```
 The folder right now consists of a few examples of the dataset pdbs used to train the model.
 ---
