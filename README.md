@@ -37,8 +37,8 @@ pools the resulting node embeddings, and predicts a single scalar ΔG.
 ## Installation
 
 ```bash
-conda env create -f environment.yml
-conda activate idp-gnn
+conda env create -f environment.yaml
+conda activate flex_env
 ```
 
 
