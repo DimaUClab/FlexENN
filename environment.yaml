@@ -1,0 +1,33 @@
+name: flex_env
+channels:
+  - pytorch
+  - pyg
+  - conda-forge
+dependencies:
+  - python=3.10.15
+  - pip
+
+  # PyTorch CPU build
+  - pytorch::pytorch=2.5.1
+  - pytorch::torchvision=0.20.1
+  - pytorch::cpuonly
+
+  # PyG and its scatter helper (CPU)
+  - pyg::pyg=2.7.0
+  - pyg::pytorch-scatter=2.1.2
+
+  # Structural biology
+  - conda-forge::biopython=1.86
+
+  # Scientific Python
+  - conda-forge::numpy=1.26.4
+  - conda-forge::pandas=2.3.3
+  - conda-forge::scipy=1.15.3
+
+  # Plotting and graph visualization
+  - conda-forge::matplotlib=3.10.8
+  - conda-forge::networkx=3.4.2
+
+  # Jupyter
+  - conda-forge::jupyter
+  - conda-forge::ipykernel
